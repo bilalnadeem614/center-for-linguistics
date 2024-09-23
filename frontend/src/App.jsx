@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-// import './App.css'
+import './App.css'
 
 import { useState, useEffect } from "react";
 import axios from "axios";
@@ -28,10 +28,18 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Checking Backend Connection</h1>
-      <p>{backendMessage1 ? backendMessage1 : "Loading..."}</p>
-      <p>{backendMessage2 ? backendMessage2 : "Loading..."}</p>
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="bg-white p-8 rounded-lg shadow-lg">
+        <h1 className="text-2xl font-bold text-center mb-4">
+          Checking Backend Connection
+        </h1>
+        <p className="text-lg text-center">
+          {backendMessage1 ? backendMessage1 : "Loading..."}
+        </p>
+        <p className="text-lg text-center">
+          {backendMessage2 ? backendMessage2 : "Loading..."}
+        </p>
+      </div>
     </div>
   );
 }
