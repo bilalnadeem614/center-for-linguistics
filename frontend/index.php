@@ -69,7 +69,7 @@
                                     <a href="javascript:void(0)" class="block">Integrations</a>
                                 </li>
                                 <li class="text-gray-300 hover:text-gray-400">
-                                    <a href="javascript:void(0)" class="block">Customers</a>
+                                    <a href="./contact.php" class="block">Contact Us</a>
                                 </li>
                                 <li class="text-gray-300 hover:text-gray-400">
                                     <a href="javascript:void(0)" class="block">Pricing</a>
