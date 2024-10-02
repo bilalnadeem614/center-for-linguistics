@@ -8,6 +8,9 @@
 </head>
 
 <body>
+    <?php
+    require "./nav.php";
+    ?>
     <main>
         <div class="max-w-screen-xl mx-auto px-4 flex items-center justify-start h-screen md:px-8">
             <div class="max-w-lg mx-auto space-y-3 text-center">
@@ -26,6 +29,9 @@
             </div>
         </div>
     </main>
+    <?php
+    require "./footer.php";
+    ?>
 </body>
 
 </html>
